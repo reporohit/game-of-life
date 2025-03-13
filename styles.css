@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+canvas {
+    display: block;
+}
+
+button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #30a14e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #216e39;
+}
